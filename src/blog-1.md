@@ -6,4 +6,7 @@ When a variable is any, you can do anything with it, and TypeScript will not war
 unknown is the safer . because TypeScript forces you to check the type before using the value.
 
 <!-- type Narrowing -->
-type narrowing is works board to specify.
+type narrowing is works reduce  board to specify.
+
+
+

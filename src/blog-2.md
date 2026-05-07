@@ -1,0 +1,2 @@
+<!-- generics -->
+ Generics means do generalize.Generics allow you to create reusable functions, classes, and components that stay strictly typed, no matter what data type is passed in.Because of generics use TypeScript can decide the exact type when the function is used.
