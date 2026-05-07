@@ -1,17 +1,16 @@
 //  Problem-1
-// Create a TypeScript function filterEvenNumbers that accepts an array of numbers and returns a new array containing only the even numbers.
 
-// Sample Input:
-// filterEvenNumbers([1, 2, 3, 4, 5, 6])
-
-// Sample Output:
-// [2, 4, 6]
-
-
-const filterEvenNumbers = (numbersArray: number[]) => {
+const filterEvenNumbers = (numbersArray: number[]):number[] => {
     return numbersArray.filter(element => element % 2 === 0);
 }
 
 const output=(filterEvenNumbers([1, 2, 3, 4, 5, 6]));
 // console.log(output)
 
+// Problem-2
+const reverseString = (text: string): string => {
+    return text.split("").reverse().join("");
+}
+
+const reverse=(reverseString("typescript"));
+console.log(reverse)
