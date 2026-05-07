@@ -101,17 +101,28 @@ class Person {
 
 class Student extends Person {
     grade: string
-    constructor(name: string, age: number,grade:string) {
+    constructor(name: string, age: number, grade: string) {
         super(name, age)
         this.grade = grade
     }
-    getDetails(){
+    getDetails() {
         return `Name: ${this.name}, Age: ${this.age},Grade: ${this.grade}`;
-         
+
     }
 }
 
-const student= new Student("Alice",  20, "A")
-console.log(student.getDetails())
+const student = new Student("Alice", 20, "A")
+// console.log(student.getDetails())
 
 
+// Problem-7
+const getIntersection = (
+    array1: number[],
+    array2: number[]
+): number[] => {
+
+    return array1.filter(element => array2.includes(element));
+}
+
+const newArray = getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]);
+console.log(newArray)
