@@ -1,11 +1,10 @@
 //  Problem-1
-
 const filterEvenNumbers = (numbersArray: number[]): number[] => {
     return numbersArray.filter(element => element % 2 === 0);
 }
 
 const output = (filterEvenNumbers([1, 2, 3, 4, 5, 6]));
-// console.log(output)
+
 
 // Problem-2
 const reverseString = (text: string): string => {
@@ -13,7 +12,7 @@ const reverseString = (text: string): string => {
 }
 
 const reverse = (reverseString("typescript"));
-// console.log(reverse)
+
 
 
 
@@ -43,7 +42,7 @@ const user = {
     age: 21
 };
 const result = getProperty(user, 'name')
-// console.log(result)
+
 
 
 
@@ -66,9 +65,8 @@ const myBook: Book = {
     publishedYear: 2024
 }
 
-
 const newBook = (toggleReadStatus(myBook))
-// console.log(newBook)
+
 
 
 // Problem-6
@@ -96,7 +94,7 @@ class Student extends Person {
 }
 
 const student = new Student("Alice", 20, "A")
-// console.log(student.getDetails())
+
 
 
 // Problem-7
